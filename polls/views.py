@@ -2,4 +2,4 @@ from django.http import HttpResponse
 
 
 def indx(req):
-    return HttpResponse("Hello djangoers. This is the polls index")
+    return HttpResponse("Hello world. This is django's polls index")
