@@ -1,4 +1,5 @@
-from django.shortcuts import get_object_or_404, render, get_list_or_404
+from django.shortcuts import get_object_or_404, render
+#from django.shortcuts import get_list_or_404
 
 from .models import Question
 from django.http import HttpResponse
