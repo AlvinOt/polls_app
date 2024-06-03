@@ -3,7 +3,7 @@ from . import views
 
 
 urlpatterns = [
-        path('', views.indx, name="inde"),
+        path('', views.index, name="inde"),
         # ex: /polls/5/
         path("<int:question_id>/", views.detail, name="detail"),
         # ex: /polls/5/results/
